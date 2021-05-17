@@ -45,7 +45,7 @@ def inp(d):
     :return: correct data
     '''
     n = input().lower().split()
-    if n =[]:
+    if n == []:
         print(d)
     if len(n) < 2 or len(n) > 4:
         print('Некорректный ввод')
